@@ -13,6 +13,7 @@ A responsive World of Warcraft-themed quiz app built with **React**, **TypeScrip
 
 ## 📂 Project Structure
 
+```bash
 src/
 ├── Components/
 │ ├── QuestionCard.tsx # Renders individual quiz questions
@@ -22,6 +23,7 @@ src/
 ├── data.ts # Quiz data
 ├── main.tsx # App entry point
 └── types.ts # TypeScript types
+```
 
 ## 📦 Tech Stack
 
