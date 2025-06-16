@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  --danger-red: #dc3545;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+    background-image: url('../public/images/background-image-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-custom-danger {
+  background-color: var(--danger-red);
+  color: white;
+}
+
+.bg-custom-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.progress-bar-danger {
+  background-color: var(--danger-red);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: 125%;
+    background-image: url('../public/images/background-image-2-mobile.jpg');
+  }
+}
